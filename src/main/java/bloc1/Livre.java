@@ -6,4 +6,10 @@ public class Livre {
     public String Auteur;
     public int NombrePages;
     public String Editeur;
+
+    public void tadum()
+    {
+        int a = 1;
+        a+=1;
+    }
 }
