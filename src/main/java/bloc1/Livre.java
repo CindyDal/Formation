@@ -6,4 +6,11 @@ public class Livre {
     public String Auteur;
     public int NombrePages;
     public String Editeur;
+
+
+    public void tada()
+    {
+        int t,y = 0;
+        y +=1;
+    }
 }
