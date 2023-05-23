@@ -1,9 +1,19 @@
 name: SonarCloud
 on:
   pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
     branches:
       - develop
-    types: [opened, synchronize, reopened]
+    workflow_dispatch:
+      types:
+        - opened
+        - synchronize
+        - reopened
+      branches:
+        - develop
 jobs:
   build:
     name: Build and analyze
