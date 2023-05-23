@@ -6,4 +6,11 @@ public class Livre {
     public String Auteur;
     public int NombrePages;
     public String Editeur;
+
+
+    public void test()
+    {
+        int t = 0;
+        t = t + 3;
+    }
 }
