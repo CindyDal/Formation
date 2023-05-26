@@ -7,7 +7,7 @@ public class Livre {
     public int NombrePages;
     public String Editeur;
 
-    public void tada()
+    public void tada2()
     {
         int t = 0;
         t += 1;
