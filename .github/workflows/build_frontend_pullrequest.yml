@@ -1,4 +1,4 @@
-name: SonarCloud
+name: SonarCloud frontend pr
 on:
   pull_request:
     types: [opened, synchronize, reopened]
