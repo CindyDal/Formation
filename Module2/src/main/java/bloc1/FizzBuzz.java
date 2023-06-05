@@ -24,4 +24,23 @@ public class FizzBuzz {
             return BUZZ;
         return FIZZ_BUZZ;
     }
+
+    public String repondre2(int value) {
+//        if (value % 5 == 0 && value % 3 == 0)
+//            return FIZZ_BUZZ;
+//        if (value % 5 == 0)
+//            return BUZZ;
+//        if (value % 3 == 0)
+//            return FIZZ;
+//        return String.valueOf(value);
+
+
+        if(value % 5 != 0 && value % 3 != 0)
+            return String.valueOf(value);
+        if(value % 5 != 0)
+            return FIZZ;
+        if(value % 3 != 0)
+            return BUZZ;
+        return FIZZ_BUZZ;
+    }
 }
